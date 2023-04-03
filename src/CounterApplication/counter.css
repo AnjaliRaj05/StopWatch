@@ -1,0 +1,41 @@
+.timer-box{
+ display:flex;   
+ justify-content: center;
+ flex-direction:column;
+ align-items: center;
+ margin:50px;
+}
+ .box-container {
+    /* display: flex;
+    width: 400px;
+     border: 1px solid red; 
+    height: 250px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+    margin-left: 500px; */
+    width:400px;
+    height:250px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    height: 50px;
+    width: 90px;
+    margin: 20px;
+    margin-bottom: 20px;
+} 
+
+.watch-box{
+    width:400px;
+    height:250px;
+    border: 1px solid red;
+    margin:40px;
+
+}
+h1{
+    text-align: center;
+}

@@ -77,11 +77,11 @@ useEffect(()=>{
 <>
 <div className="timer-box">
 <div className="box-container">
-      <button className='btn btn-danger'onClick={DecrementCounter} >Decrement</button>
+      <button onClick={DecrementCounter} >Decrement</button>
       <p>{counter}</p>
-      <button className='btn btn-success' onClick={incrementCounter}>increment</button>
-     <br/>
-      <button className='btn btn-primary'onClick={ResetCounter}>Reset</button>
+      <button onClick={incrementCounter}>increment</button>
+     
+      <button onClick={ResetCounter}>Reset</button>
     
       </div>
       <div className="watch-box">
@@ -89,7 +89,7 @@ useEffect(()=>{
         <h1>{hour}:{min}:{sec}:{mS}</h1>
         <button onClick={onStart}>start</button>
         <button onClick={onStop}>stop</button>
-        <button onClick={onReset}>RESET</button>
+        <button onClick={onReset}>Reset</button>
 
       </div>
       </div>

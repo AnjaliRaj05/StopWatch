@@ -22,12 +22,12 @@
     margin:20px;
     background-color:  #72b0cb;
     color: #fff;
-    box-shadow: 0px 4px 5px 4px #2A363B;
+    box-shadow: 0px 0px 2px 1px #72b0cb;
     
 }
 
 .box-container button:hover{
-    background-color: #E84A5F;
+    background-color: #0db8f6;
     /* transform: scale(0.3); */
 }
 .box-container p{
@@ -62,9 +62,13 @@ h1{
     margin:20px;
     background-color:  #72b0cb;;
     color: #fff;
-    box-shadow: 0px 4px 5px 4px #2A363B;
+    box-shadow: 0px 0px 2px 1px #72b0cb;
+    ;
 
 }
 .watch-box h1{
     color: #fff;
+}
+.watch-box button:hover{
+    background-color: #0db8f6;
 }

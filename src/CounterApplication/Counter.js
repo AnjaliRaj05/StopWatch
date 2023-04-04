@@ -76,9 +76,11 @@ useEffect(()=>{
   return (
 <>
 <div className="timer-box">
+  
 <div className="box-container">
+      <p className="zero">{counter}</p>
       <button onClick={DecrementCounter} >Decrement</button>
-      <p>{counter}</p>
+      
       <button onClick={incrementCounter}>increment</button>
      
       <button onClick={ResetCounter}>Reset</button>

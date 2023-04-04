@@ -72,3 +72,17 @@ h1{
 .watch-box button:hover{
     background-color: #0db8f6;
 }
+footer {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    /* padding: 1.6em; */
+  }
+.text{
+    color: #fff;
+}
+i{
+    margin:7px;
+    text-align: center;
+
+}

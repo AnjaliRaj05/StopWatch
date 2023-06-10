@@ -1,6 +1,5 @@
-```
-Hosting link : https://anjaliraj05.github.io/StopWatch/
-```
+
+[https://anjaliraj05.github.io/StopWatch/](https://anjaliraj05.github.io/StopWatch/)
 
 
 # Getting Started with Create React App
